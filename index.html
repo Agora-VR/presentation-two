@@ -52,10 +52,77 @@
 				<!-- SLIDE 2 -->
 				<section data-transition="convex" data-transition-speed="slow">
 					<section>
-						<h2>Recap</h2>
+						<h2>Review</h2>
 					</section>
 					<section>
-						Review of the project scope of work (recap from session I), task allocation among team members.
+						Utilizing the Oculus Quest, our solution will immerse the patient within a virtual environment that dynamically
+						adapts to the stage of treatment, severity of the disorder, realtime integrated biosensor readings, and external
+						inputs from a clinician and caregiver. With our product, we plan to provide an alternative, more effective treatment
+						option for those who suffer from Agoraphobia and social anxiety disorders.
+					</section>
+					<section>
+						<h3>Our Previous Goals</h3>
+						<br><ul>
+							<li class="fragment fade-up" data-autoslide="200">Virtual Scenarios in Immersive Environments</li>
+							<li class="fragment fade-up" data-autoslide="200">Multiplayer Support</li>
+							<li class="fragment fade-up" data-autoslide="200">Crowd Artificial Intelligence</li>
+							<li class="fragment fade-up" data-autoslide="200">Stress Monitoring & Tracking</li>
+							<li class="fragment fade-up" data-autoslide="200">Simulation Footage Streaming & Playback</li>
+							<li class="fragment fade-up" data-autoslide="200">Patient & Therapist Portal</li>
+							<li class="fragment fade-up">Clinical Research Study & Research Paper</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Our Updated Goals</h3>
+						<br><ul>
+							<li class="fragment fade-up" data-autoslide="200">Public Speaking Scenarios (Auditorium & Meeting Room)</li>
+							<li class="fragment fade-up" data-autoslide="200">Animated Reactive People & Dynamic Sessions</li>
+							<li class="fragment fade-up" data-autoslide="200">Bluetooth Low Energy Heartrate Monitor</li>
+							<li class="fragment fade-up" data-autoslide="200">Tracking & Storing Data From Session</li>
+							<li class="fragment fade-up">Patient & Therapist Portal</li>
+						</ul>
+					</section>
+					<section>
+						<ol>
+							<h3>Aryeh Ness</h3>
+								<br><ul>
+									<span class="fragment fade-up" data-autoslide="200"><strike>Clinical Research Study & Protocol</strike></span><br>
+									<span class="fragment fade-up" data-autoslide="200">General Research</span><br>
+									<span class="fragment fade-up">3D Modeling (Meeting Room)</span>
+								</ul>
+						</ol>
+					</section>
+					<section>
+						<ol>
+						<h3>Daniel Nguyen</h3>
+							<br><ul>
+								<span class="fragment fade-up" data-autoslide="200">Art, Design & Presentation</span><br>
+								<span class="fragment fade-up" data-autoslide="200">Unity Development & Oculus Quest Integration</span><br>
+								<span class="fragment fade-up" data-autoslide="200">3D Modeling (Auditorium)</span><br>
+								<span class="fragment fade-up">Hardware Integration (Android Plugin & Unity)</span>
+							</ul>
+						</ol>
+					</section>
+					<section>
+						<ol>
+						<h3>Ted Moseley</h3>
+							<br><ul>
+								<span class="fragment fade-up" data-autoslide="200">Database, Server & Backend</span><br>
+								<span class="fragment fade-up" data-autoslide="200">Website & Access Portal</span><br>
+								<span class="fragment fade-up" data-autoslide="200">Data Collection</span><br>
+								<span class="fragment fade-up">Hardware Communications (Arduino Code & Algorithms)</span>
+							</ul>
+						</ol>
+					</section>
+					<section>
+						<ol>
+						<h3>Michael Truong</h3>
+							<br><ul>
+								<span class="fragment fade-up" data-autoslide="200">Data Tracking & Collection</span><br>
+								<span class="fragment fade-up" data-autoslide="200">Audio Recording & Speech Recognition</span><br>
+								<span class="fragment fade-up">Unity Development</span>
+							</ul>
+						</ol>
 					</section>
 				</section>
 
@@ -65,17 +132,106 @@
 						<h2>Design & Status</h2>
 					</section>
 					<section>
-						Detail the project design and status. Including project progress, implementation, performance, and challenges.
+						Two virtual scenarios involving public speaking:<br><br>
+						[1] Auditorium Presentation<br>
+						<img src="lib/img/Auditorium_1.png" height="400px" draggable="false"/>
+					</section>
+					<section>
+						[2] Meeting Room Presentation<br>
+						<img src="lib/img/MeetingRoom_1.png" height="400px" draggable="false"/>
+						<br><font size="1">*Blender Rendering</font>
+					</section>
+					<section>
+						These scenarios will include distractions caused by AI characters.<br><br>
+						<video controls loop height="400px">
+							<source src="lib/img/yawn.mp4" type="video/mp4">
+							Your browser does not support the video tag.
+						</video>
+						<br><font size="1">Yawning Animation Example</font>
+					</section>
+					<section>
+						Heart Rate Monitoring and SpO2 levels<br><br>
+						<img src="lib/img/BLE-HRM_Diagram.png" height="400px" draggable="false"/><br>
+						Hardware Showcase <a href="https://docs.google.com/presentation/d/1-eov6MjFM_WIdu3p78eKS5lVypj1n0BanEjTVyKjWdo/edit?usp=sharing">Images</a>
+					</section>
+					<section>
+						Tracking Session Data:<br>
+						<br><ul>
+							<li>Eye Contact with audience members</li>
+							<li>Volume level, pause in speech</li>
+							<li>Distracted by an audience</li>
+							<li>Hand movement and shakey hands (common symptom)</li>
+							<li>Need to meet a certain performance requirement before increasing difficulty</li>
+						</ul>
+					</section>
+					<section>
+						Audio Recording:<br>
+						<img src="lib/img/SpeechToText_Diagram.png" height="400px" draggable="false"/>
+					</section>
+					<section>
+						Agora VR Web Portal <a href="https://agoravr.online/"><img src="lib/img/QR-agora-online_white.png" height="50px" draggable="false"/></a><br>
+						<img src="lib/img/Webportal_SessionData.png" height="400px" draggable="false"/><br>
+					</section>
+				</section>
+
+				<!-- SLIDE 4 -->
+				<section data-transition="convex" data-transition-speed="slow">
+					<section>
+						<h2>Project Implementation</h2>
+					</section>
+					<section>
+						<table>
+							<col width="200">
+							<col width="200">
+							<col width="200">
+							<col width="200">
+							<tbody>
+								<tr>
+									<th align="center"><a href="https://svelte.dev/">
+										<img src="https://raw.githubusercontent.com/sveltejs/branding/master/svelte-logo.png" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://docs.aiohttp.org/en/stable/">
+										<img src="https://docs.aiohttp.org/en/stable/_static/aiohttp-icon-128x128.png" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://www.python.org/">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://developer.android.com/">
+										<img src="https://source.android.com/setup/images/Android_symbol_green_RGB.png" height="100px" draggable="false"/></a></th>
+								</tr>
+								<tr>
+									<th align="center"><a href="https://www.postgresql.org/">
+										<img src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://developer.oculus.com/">
+										<img src="lib/img/OculusLogo.png" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://unity.com/">
+										<img src="lib/img/UnityLogo.png" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://github.com/naudio/NAudio">
+										<img src="https://avatars0.githubusercontent.com/u/11003971?s=400&v=4" height="100px" draggable="false"/></a></th>
+								</tr>
+								<tr>
+									<th align="center"><a href="https://www.arduino.cc/">
+										<img src="https://content.arduino.cc/brand/arduino-white.svg" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://www.ibm.com/watson">
+										<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/00/IBM_Watson_Logo_2017.png/220px-IBM_Watson_Logo_2017.png" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://www.maximintegrated.com/en.html">
+										<img src="lib/img/MaximLogo.png" height="100px" draggable="false"/></a></th>
+									<th align="center"><a href="https://www.blender.org/">
+										<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/1200px-Blender_logo_no_text.svg.png" height="100px" draggable="false"/></a></th>
+								</tr>
+						</tbody>
+						</table>
 					</section>
 				</section>
 
 				<!-- SLIDE 5 -->
 				<section data-transition="convex" data-transition-speed="slow">
 					<section>
-						<h2>Tasks & Milestones</h2>
+						<h2>Project Challenges</h2>
 					</section>
 					<section>
-						Project tasks and milestone.
+						<br><ul>
+							<li>Time constraint (limited to two scenarios)</li>
+							<li>Approval of clinical research study and paper</li>
+							<li>COVID-19</li>
+						</ul>
 					</section>
 				</section>
 
